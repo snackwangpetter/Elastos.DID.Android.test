@@ -27,7 +27,7 @@ Step1:
 Open the Android project root ‘build.Gradle’, in allprojects/node adding repositories
 
 ```
-maven{url 'https://dl.bintray.com/elastostest/maven'}
+maven{url 'https://dl.bintray.com/elastostest/Elastos.DID.Java.SDK'}
 ```
 
 for example:
@@ -37,7 +37,7 @@ allprojects {
      repositories {
          google()
          jcenter()
-         maven{url 'https://dl.bintray.com/elastostest/maven'}
+         maven{url 'https://dl.bintray.com/elastostest/Elastos.DID.Java.SDK'}
     } 
 }
 ```
