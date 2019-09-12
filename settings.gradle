@@ -1,1 +1,2 @@
-include ':app',':Elastos.DID.Java.SDK'
+include ':app'
+//,':Elastos.DID.Java.SDK'
