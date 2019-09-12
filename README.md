@@ -20,3 +20,42 @@ git submodule update --rebase --remote
 ```
 
 And then use git add, commit and push to submit your changes to current project.
+
+## How to use library from maven(for test)
+
+Step1:
+Open the Android project root ‘build.Gradle’, in allprojects/node adding repositories
+
+```
+maven{url 'https://dl.bintray.com/elastostest/maven'}
+```
+
+for example:
+
+```
+allprojects {
+     repositories {
+         google()
+         jcenter()
+         maven{url 'https://dl.bintray.com/elastostest/maven'}
+    } 
+}
+```
+
+Step2:
+Open target module 'build.Gradle' file, add in the dependencies node
+
+```
+implementation 'org.elastos:did:0.0.1'
+```
+
+for example:
+
+```
+dependencies {
+      //other config
+     implementation 'org.elastos:did:0.0.1'
+ }
+```
+
+
