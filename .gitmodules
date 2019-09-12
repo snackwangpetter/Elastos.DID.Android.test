@@ -1,0 +1,3 @@
+[submodule "Elastos.DID.Java.SDK"]
+	path = Elastos.DID.Java.SDK
+	url = git@github.com:elastos/Elastos.DID.Java.SDK.git
